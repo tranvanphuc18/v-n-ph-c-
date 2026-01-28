@@ -7,31 +7,98 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-7.1.0-web/fontawesome-free-7.1.0-web/css/all.min.css">
 </head>
 <body>
     <div class="app">
         <header class="header">
-          <nav class="header__navbar">
-          <ul class="header__navbar-list">
-          <li class="header__navbar-item">vào cửa hàng trên ứng dụng shopee</li>
-            <li class="header__navbar-item">kết nối</li>
-          </ul>
+          <div class="grid">
+            <nav class="header__navbar">
+            <ul class="header__navbar-list">
+              <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                vào cửa hàng trên ứng dụng shoppe
+                <!-- header qr code -->
+                <div class="header__qr">
+                  <img src="./assets/img/qr-code.png" alt="QR code" class="header__qr-img">
+                  <div class="header__qr-apps">
+                    <a href="" class="header__qr-link">
+                      <img src="./assets/img/store code.png" alt="App Store" class="header__qr-app">
+                    </a>
+                    <a href="" class="header__qr-link">
+                      <img src="./assets/img/play code.png" alt="Google Play" class="header__qr-app">
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="header__navbar-item">
+                <span class="header__navbar-title--no-pointer">kết nối</span>
+                <a href="" class="header__navbar-icon-link">
+                  <i class="header__navbar-icon fab fa-facebook"></i>
+                </a>
+                 <a href="" class="header__navbar-icon-link">
+                  <i class="header__navbar-icon fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+  
+           <ul class="header__navbar-list">
+            <li class="header__navbar-item">
+                <i class="header__navbar-icon fas fa-bell"></i>
+                thông báo
+              
+              <div class="header__notifi">
+                <header class="header__notifi-header">
+                  <h3>thông báo mới nhận</h3>
+                </header>
+                <ul class="header__notifi-list">
+                  <li class="header__notifi-item header__notifi-item--viewed">
+                    <a href="" class="header__notifi-link">
+                       <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3n02opdkuk550.webp" alt="" class="header__notifi-img">
+                       <div class="header__notifi-info">
+                         <span class="header__notifi-name">Mỹ phẩm shoppe chính hãng</span>
+                         <span class="header__notifi-descriotion">Mô tả mỹ phẩm shoppe chính hãng</span>
+                      </div>
+                      </a>
+                  </li>
+                   <li class="header__notifi-item">
+                    <a href="" class="header__notifi-link">
+                       <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3n02opdkuk550.webp" alt="" class="header__notifi-img">
+                       <div class="header__notifi-info">
+                         <span class="header__notifi-name">Mỹ phẩm shoppe chính hãng</span>
+                         <span class="header__notifi-descriotion">Mô tả mỹ phẩm shoppe chính hãng</span>
+                      </div>
+                      </a>
+                  </li>
+                   <li class="header__notifi-item">
+                    <a href="" class="header__notifi-link">
+                       <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m3n02opdkuk550.webp" alt="" class="header__notifi-img">
+                       <div class="header__notifi-info">
+                         <span class="header__notifi-name">Mỹ phẩm shoppe chính hãng</span>
+                         <span class="header__notifi-descriotion">Mô tả mỹ phẩm shoppe chính hãng</span>
+                      </div>
+                      </a>
+                  </li>
+                </ul>
+                <div class="header__notifi-footer">
+                  <a href="" class="header__notifi-footer-btn">xem tất cả</a>
+                </div>
+              </div>
+             </li>
+            <li class="header__navbar-item">
+                <i class="header__navbar-icon fas fa-question-circle"></i>
+                hỗ trợ
+              </a>
+            </li>
+            <li class="header__navbar-item">
+              <a href="" class="header__navbar-item-link header__navbar-item--strong header__navbar-item--separate">đăng ký</a>
+            </li>
+            <li class="header__navbar-item">
+              <a href="" class="header__navbar-item-link header__navbar-item--strong">đăng nhập</a>
+            </li>
+           </ul>
+             </nav>
 
-          <ul class="header__navbar-list">
-          <li class="header__navbar-item">
-            <a href="" class="header__navbar-item-link">thông báo</a>
-          </li>
-          <li class="header__navbar-item">
-            <a href="" class="header__navbar-item-link">hỗ trợ</a>
-          </li>
-          <li class="header__navbar-item">
-            <a href="" class="header__navbar-item-link">đăng ký</a>
-          </li>
-          <li class="header__navbar-item">
-            <a href="" class="header__navbar-item-link">đăng nhập</a>
-          </li>
-          </ul>
-           </nav>
+          </div>
         </header>
         <div class="container">
 
